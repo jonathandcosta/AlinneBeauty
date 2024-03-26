@@ -23,9 +23,9 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
+  --hue: 329; 
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color: hsl(var(--hue) 88% 32%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
@@ -662,6 +662,9 @@ footer .social a:hover {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
+  }
+  .card img {
+    width: 30%;
   }
 }
 /* medium devices: 767 > */
