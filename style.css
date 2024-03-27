@@ -145,6 +145,8 @@ body {
 .logo {
   font: 700 1.31rem var(--title-font);
   color: var(--title-color);
+  /* font-family: Italianno;
+  font-size: 4rem; */
 }
 
 .logo span {
@@ -668,3 +670,9 @@ footer .social a:hover {
   }
 }
 /* medium devices: 767 > */
+@media (min-width: 767px) {
+  .card img {
+    width: 30%;
+  }
+  
+}
